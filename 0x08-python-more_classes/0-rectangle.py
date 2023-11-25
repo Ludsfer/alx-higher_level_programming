@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-"""
-This is my empty class
-"""
+""" This is my empty class """
 class Rectangle:
-	"""
-	just pass
-	"""
+	""" just pass """
 	pass
 
