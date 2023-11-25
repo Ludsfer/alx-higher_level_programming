@@ -25,12 +25,12 @@ class Rectangle:
     @width.setter
     def width(self, value):
         """ Set the private variabe width to the value of the attribute """
-        if value < 0:
-            """ Checks for value error """
-            raise ValueError("width must be >= 0")
         if not isinstance(value, int):
             """ Checks for thetype error """
             raise TypeError("width must be an integer")
+        if value < 0:
+            """ Checks for value error """
+            raise ValueError("width must be >= 0")
         self.__width = value
 
     @property
@@ -41,10 +41,10 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """ Set the private variable height to the value of the attribute """
-        if value < 0:
-            """ Checks for value error """
-            raise ValueError("height must be >= 0")
         if not isinstance(value, int):
             """ Checks for type error """
             raise TypeError("height must be an integer")
+        if value < 0:
+            """ Checks for value error """
+            raise ValueError("height must be >= 0")
         self.__height = value
