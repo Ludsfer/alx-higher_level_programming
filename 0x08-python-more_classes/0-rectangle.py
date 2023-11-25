@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""
+This is my empty class
+"""
 class Rectangle:
-	def __init__(self, height, width):
-		self.height = height
-		self.width = width
+	"""
+	just pass
+	"""
+	pass
 
