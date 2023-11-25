@@ -3,6 +3,5 @@
 
 
 class Rectangle:
-	"""just pass"""
-	pass
-
+    """just pass"""
+    pass
