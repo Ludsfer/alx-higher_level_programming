@@ -3,8 +3,15 @@
 
 
 class Rectangle:
-    """ what a rectangle is to do """
 
+    """initializing this rectangle class
+    Args:
+        width: represents the width of the rectangle
+        height: represents the height of the rectangle
+    Raises:
+        TypeError: if size is not integer
+        ValueError: if size is < 0
+    """
     def __init__(self, width=0, height=0):
         """ constructor """
         self.width = width
