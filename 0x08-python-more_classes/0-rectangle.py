@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-"""This is my empty class."""
+"""This is my empty Rectangle class"""
 
 
 class Rectangle:
-	"""just pass."""
+	"""just pass"""
 	pass
-
