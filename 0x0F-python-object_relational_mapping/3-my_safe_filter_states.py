@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""A MySQLdb script free from SQL Injection that list all `states` from the database `hbtn_0e_0_usa`.
+"""A MySQLdb script free from SQL Injection that list all `states`
+from the database `hbtn_0e_0_usa`.
 Usage:
     ./1-filter.py `user` `password` `database` `state name searched`
 """
