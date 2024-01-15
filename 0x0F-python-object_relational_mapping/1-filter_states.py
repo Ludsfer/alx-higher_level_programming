@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" MySQLdb script that lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa.
+""" MySQLdb script that lists all states with a name starting with
+N (upper N) from the database hbtn_0e_0_usa.
 Usage:
     ./1-filter.py `user` `password` `database`
 """
