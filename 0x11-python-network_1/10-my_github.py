@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Python script that takes your GitHub credentials
-(username and password) and uses the GitHub API to display your id"""
+"""Python script that takes GitHub credentials
+(username and password), uses GitHub API to display your id"""
 
 if __name__ == "__main__":
     import requests
@@ -15,4 +15,4 @@ if __name__ == "__main__":
         data = result.json()
         print(data["id"])
     except:
-        print("None")
+        pass
