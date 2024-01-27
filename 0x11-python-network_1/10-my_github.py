@@ -14,5 +14,5 @@ if __name__ == "__main__":
     try:
         data = result.json()
         print(data["id"])
-    except:
-        pass
+    except Exception:
+        print("None")
