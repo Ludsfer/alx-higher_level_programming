@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 """api thing"""
-import sys
-import requests
 
-
-def apidata():
-    """apidata"""
+if __name__ == "__main__":
+    import sys
+    import requests
     url = "https://api.github.com/repos/{}/{}/commits".format(sys.argv[2],
                                                               sys.argv[1])
     result = requests.get(url)
@@ -16,6 +14,3 @@ def apidata():
                                   d[i]["commit"]["author"]["name"]))
     except IndexError:
         pass
-
-if __name__ == "__main__":
-    apidata()
