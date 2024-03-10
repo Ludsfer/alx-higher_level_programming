@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 A script that reads stdin line by line and computes metrics:
-Input format: 
+Input format:
 <IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>
 Each 10 lines and after a keyboard interruption (CTRL + C),
 prints those statistics since the beginning:
