@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+"""
+A module that implements a function to creates an object
+from a JSON file.
+"""
+
+
+def load_from_json_file(filename: str) -> object:
+    """
+    Create an object from a JSON file
+
+    Args:
+        filename: Name of the file to write to.
+    """
+    import json
+
+    with open(filename, mode='r', encoding='utf-8') as json_file:
+        return json.load(json_file)
