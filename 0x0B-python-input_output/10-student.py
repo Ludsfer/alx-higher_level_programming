@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" 
+"""
 A module that implements a Student class
 """
 
 
 class Student:
-    
+
     def __init__(self, first_name, last_name, age):
         """
         Student class constructor
